@@ -16,26 +16,31 @@ body {
  border-radius: 100px;
   width: 150px;
   height: 150px;
-  position: absolute;
-  right: 1480px;
-  top: 220px;
+  position: sticky;
+  right: 1490px;
+  left: 1240px;
+  border-top: 700px;
+  align-items: flex-start;
+  
   opacity: 1;
-    box-shadow: 0 0 10px 5px rgb(62, 53, 41);
+    box-shadow: 0 0 10px 0.5px rgb(62, 53, 41);
     -webkit-box-reflect: below -8px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(91%, transparent), to(white));
  }
 
  .card {
   text-align: center;
-  box-shadow: -1px 3px 19px -2px rgba(0,0,0,0.76);
--webkit-box-shadow: -1px 3px 19px -2px rgba(0,0,0,0.76);
--moz-box-shadow: -1px 3px 19px -2px rgba(0,0,0,0.76);
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.85);
+-webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.85);
+-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.85);
   width: 400px;
   height: 500px;
-  position: absolute;
-  right: 1470px;
+  position: sticky;
+  left: 670px;
   top: 300px;
   background-color: hsla(180, 100%, 90%, 0.569);
   z-index: -1;
+  border: 4px dotted#9eeaff74;
+  border-radius: 20px;
   
  }
 
@@ -76,13 +81,18 @@ h3 { font-family: Candara; font-size: 24px; font-style: normal; font-variant: sm
 
 .card-info {
   
-  word-wrap: break-word;
-  text-indent: 50px;
-  position: absolute;
-  top: 200px;
-  left: 8px;
+  margin: 40px;
+  border: 20px;
+  padding: 50px solid;
   font-size: small;
-  font-style: oblique;
+  position: absolute;
+  text-align: justify;
+  width: 300px;
+  padding-top: 170px;
+  
+  
+  
+  
 
 
 }
@@ -100,3 +110,8 @@ h3 { font-family: Candara; font-size: 24px; font-style: normal; font-variant: sm
   background-color: #e0d0bf;
   background-image: url(BG2.avif);
 }
+
+#wrapper {
+  margin-left:auto;
+  margin-right:auto;
+  width:2000px;

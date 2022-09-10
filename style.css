@@ -21,6 +21,7 @@ body {
   left: 1240px;
   border-top: 700px;
   align-items: flex-start;
+  filter: saturate(0.7);
   
   opacity: 1;
     box-shadow: 0 0 10px 0.5px rgb(62, 53, 41);
